@@ -18,8 +18,8 @@ module.exports = {
   devServer: {
     static: {
       directory: path.join(__dirname, 'public'),
-      hot: true,
     },
+    hot: true,
   },
   plugins: [
     isDevelopment && new ReactRefreshWebpackPlugin(),
